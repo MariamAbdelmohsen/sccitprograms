@@ -1,0 +1,403 @@
+$black: #000
+$white: #fff
+$gray: #4d4d4d
+$darkBlue: #022B45
+$yellow: #FFC628
+$blue: #0E679F
+@import "_mediaquaries.sass"  
+
+#contactPage
+    .register-button
+        background-color: #FFC628
+        border: 1px solid #FFC628
+        color: #fff
+        width: 60%
+        border-radius: 1px
+        height: 35px
+        margin-top: 10px
+        &:hover
+            background-color: #022B45
+            border: 1px solid #022B45
+
+    @media (max-width: 1024px)
+        .register-button
+            width: 80%
+
+    @media (max-width: 760px)
+        .register-button
+            width: 70%
+            margin-top: 5px
+
+    .advisor-yellow
+        background-color: #FFC628
+        border: 1px solid #FFC628
+        height: 35px
+        color: #fff
+        width: 60%
+        border-radius: 1px
+        margin-top: 20px
+        &:hover
+            background-color: #022B45
+            border: 1px solid #022B45
+        @media (max-width: 1024px)
+            width: 80%
+        @media (max-width: 760px)
+            width: 70%
+
+    .schedule
+        font-weight: bold
+        &:hover
+            border-bottom: 2px solid #FFC628
+            color: #fff
+
+    .buttons
+        text-align: center
+        p
+            padding: 15px 0 0 0
+            color: #fff
+            margin: 0
+        i
+            padding-left: 10px
+            font-size: 20px 
+            cursor: pointer
+
+    // .contact-h2
+    //     color: contentBlue
+
+    // @media screen and (max-width: 39.9em)
+    //     .contact-h2
+    //         margin-left: 1%
+
+    .contact
+        padding-top: 10px
+        text-align: center
+        align-content: center
+
+    ul.contact-nav
+        list-style-type: none
+        color: #0E679F
+        font-size: 0.9em
+    li
+        &.contact-nav1
+            display: inline
+            float: left
+            width: 33%
+            text-align: center
+            border-right: 2px solid #0E679F
+        &.contact-nav2
+            display: inline
+            float: left
+            width: 33%
+            text-align: center
+            border-right: 2px solid #0E679F
+        &.contact-nav3
+            display: inline
+            float: left
+            width: 33%
+            text-align: center
+
+    a
+        &:hover, &:active
+            text-decoration: none !important
+        &.contact-nav-anchor:hover
+            border-bottom: 2px solid #FFC628
+
+        li.contact-nav1 a.contact-nav-anchor:visited
+            border-bottom: 2px solid #FFC628 !important
+            color: #0E679F
+
+    .p-contact
+        width: 100%
+        text-align: left
+        margin: 0 auto
+        padding-bottom: 20px
+
+    @media (max-width: 760px)
+        .p-contact
+            width: 100%
+
+    /**form*/
+
+    form
+        text-align: center
+
+    .input-name, .input-email
+        width: 100%
+        margin: 0 auto
+        border: 1px solid #000 !important
+        border-radius: 0px !important
+        margin-top: 5px
+
+    .input-message
+        width: 100%
+        margin: 0 auto
+        border: 1px solid #000 !important
+        border-radius: 0px !important
+        margin-top: 5px
+        height: 200px
+        width: 100%
+        margin-bottom: 10px
+
+    @media (max-width: 760px)
+        .input-name, .input-email, .input-message
+            width: 100%
+
+    .submit
+        background-color: #FFC628 !important
+        border-color: #fff !important
+        color: #fff
+        width: 60%
+        margin: 0 auto
+        border-radius: 0px !important
+        margin-bottom: 50px
+
+    @media (max-width: 760px)
+        .submit
+            width: 100%
+
+    .advisor-appt
+        h4
+            color: #0E679F
+            margin-bottom: 20px
+        p
+            color: #000
+            font-size: 1em
+
+    .advisor-button
+        background-color: #FFC628 !important
+        border-color: #fff !important
+        color: #fff
+        width: 60%
+        border-radius: 0px !important
+        margin: 0 auto
+        margin-top: 60px
+        margin-left: 10%
+        margin-bottom: 50px
+
+    @media (max-width: 760px)
+        .advisor-button
+            width: 100%
+            margin-left: 0%
+
+    .schedule-appt
+        clear: both
+        padding-top: 50px
+        padding-bottom: 50px
+        border-top: 2px solid #0E679F
+        border-bottom: 2px solid #0E679F
+
+    .faculty
+        padding-top: 50px
+        padding-bottom: 50px
+
+    ul.faculty-nav
+        list-style-type: none
+        color: #0E679F
+        font-size: 0.9em
+        margin-top: 25px
+        padding-bottom: 50px !important
+        text-align: center
+
+    @media (max-width: 760px)
+        ul.faculty-nav
+            margin-top: 10px
+            margin-left: 0%
+            padding-bottom: 0px
+            padding-top: 10px
+
+    li
+        &.faculty-nav2
+            display: inline
+            float: left
+            margin-left: 3%
+            width: 29.33%
+            font-weight: 800
+            text-align: center
+            border-right: 2px solid #0E679F
+            padding-right: 2%
+            @include size (small)
+                width: 100%
+                border-left: none
+                border-right: none
+                float: none
+                display: block
+        &.faculty-nav3
+            display: inline
+            float: left
+            width: 29.33%
+            font-weight: 800
+            text-align: center
+            @include size (small)
+                width: 100%
+                border-left: none
+                border-right: none
+                float: none
+                display: block
+        &.faculty-nav4
+            display: inline
+            float: left
+            width: 21%
+            font-weight: 800
+            text-align: center
+            border-left: 2px solid #0E679F
+            padding-left: 4%
+            @include size (small)
+                width: 100%
+                border-left: none
+                border-right: none
+                float: none
+                display: block
+
+    // @media (max-width: 760px)
+    //     li.faculty-nav2
+    //         width: 100%
+    //         border-left: none
+    //         border-right: none
+    //         margin-left: 0%
+    //         float: none
+    //         display: block
+    //         text-align: left
+
+    // @media (max-width: 760px)
+    //     li.faculty-nav3
+    //         width: 100%
+    //         margin-left: 0%
+    //         float: none
+    //         display: block
+    //         text-align: left
+
+    // @media (max-width: 760px)
+    //     li.faculty-nav4
+    //         width: 100%
+    //         border-left: none
+    //         margin-left: 0%
+    //         padding-left: 0%
+    //         float: none
+    //         display: block !important
+    //         text-align: left !important
+
+    button
+        &.faculty-nav1, &.faculty-nav2, &.faculty-nav3, &.faculty-nav4
+            outline: none
+            border-bottom: 2px solid #FFC628
+            border: 0px
+            background-color: #fff
+        &.faculty-nav1:hover, &.faculty-nav2:hover, &.faculty-nav3:hover, &.faculty-nav4:hover
+            border-bottom: 2px solid #FFC628
+        &.faculty-nav1:focus, &.faculty-nav2:focus, &.faculty-nav3:focus, &.faculty-nav4:focus
+            outline: none
+            border-bottom: 2px solid #FFC628
+
+    .input-search
+        display: inline
+        float: right
+        margin-top: -25px
+
+    @media (max-width: 760px)
+        .input-search
+            float: none
+            margin-top: 0px
+            margin-right: 0%
+            margin-left: 10%
+
+    .box
+        width: 90%
+        height: 130px
+        background-color: #0E679F
+
+    #myBtn
+        border: 0px
+        background-color: #0E679F
+        color: #fff
+        position: fixed
+        z-index: 99
+        right: 30px
+        cursor: pointer
+        bottom: 300px
+        line-height: 40px
+        padding-left: 10px
+        padding-right: 10px
+
+    #menu1, #menu2, #menu3, #menu4
+        clear: both
+
+    @media (max-width: 500px)
+        #menu1, #menu2, #menu3, #menu4
+            clear: both !important
+
+
+    /*connections plug-in*/
+    #cn-list
+        align-content: center
+        @include size (small)
+            text-align: center
+            display: inline-block
+
+
+    .cn-list-row-alternate .cn-entry
+        width: 30%
+        float: left
+        /*margin-right: 4%;*/
+    .individual .cn-entry
+        margin-right: 4%
+
+    @media (max-width: 500px)
+        .cn-list-row-alternate .cn-entry
+            width: 100%
+
+    .cn-entry span
+        width: 200%
+
+    @media (max-width: 500px)
+        .cn-entry span
+            width: 100%
+
+    .cn-list-row
+        &.cn-entry
+            width: 100%
+        width: 30% !important
+        float: left
+        margin-right: 4%
+
+    @media (max-width: 500px)
+        .cn-list-row
+            width: 100% !important
+
+    .cn-image
+        width: 100% !important
+
+    .cn-image-style
+        width: 60% !important
+
+    /*end connections plug-in*/
+
+
+    /*contact form 7*/
+    .wpcf7-form-control
+        width: 100%
+        margin: 0 auto
+        border: 1px solid #000 !important
+        margin-top: 5px
+
+    @media (max-width: 760px)
+        .wpcf7-form-control
+            width: 100%
+
+    textarea.wpcf7-textarea
+        height: 200px
+        border: 1px solid #000 !important
+        width: 100%
+        margin-bottom: 10px
+
+    input.wpcf7-submit
+        background-color: #FFC628 !important
+        border-color: #fff !important
+        color: #fff
+        width: 60%
+        margin: 0 auto
+        border-radius: 0px !important
+        margin-bottom: 50px
+
+    @media (max-width: 760px)
+        .wpcf7-submit
+            width: 100%

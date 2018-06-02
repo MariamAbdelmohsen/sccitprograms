@@ -1,0 +1,45 @@
+// @media only screen and  (min-width: 300px) and (max-width: 640px)
+// @media screen and (max-width: 39.99em) 
+@import "_mediaquaries.sass"
+
+@include size(small)
+    body 
+        max-width: 100%
+        margin: 0
+        padding: 0
+        .banner
+            height: auto
+            img
+                width: 100%
+        .flexslider
+            overflow: hidden
+    #wrapper
+        padding: 10px 0
+        #box .text
+            p
+                // margin-top: -10px
+            a
+                margin-left: 35%
+            
+        .success-stories
+            margin: 0
+        .success-stories-box 
+            margin: 0
+            .quote
+                padding-top: 0px
+                margin-top: 5px           
+    footer
+
+        .address
+            text-align: center
+            margin-bottom: 20px
+        .links
+            display: none
+        .register-button
+            width: 70%
+            margin-top: 5px
+        .advisor-yellow
+            width: 70%
+.flex-active-slide
+    p
+        display: none

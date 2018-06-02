@@ -1,0 +1,28 @@
+// @font-face {
+// 	font-family: 'Helvetica Nueve';
+// 	src: url('HelveticaNueve.eot');
+// 	src: url('HelveticaNueve.eot?#iefix') format('embedded-opentype'),
+// 		url('HelveticaNuevet.woff') format('woff')
+// 		url('HelveticaNueve.ttf') format('truetype')
+// 		url('HelveticaNueve.svg#HelveticaNueve') format('svg')
+// 	font-weight: 300
+// 	font-style: normal
+#resources
+
+    &.links img 
+        width: 100px   
+    &.dropdown 
+        position: relative
+        display: inline-block
+
+
+    .dropdown-content 
+        display: none
+        position: absolute
+        background-color: #f9f9f9
+        min-width: 160px
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2)
+        padding: 12px 16px
+        z-index: 1
+    .dropdown:hover .dropdown-content 
+        display: block

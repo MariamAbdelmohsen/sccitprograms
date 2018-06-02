@@ -1,0 +1,30 @@
+// Mobile-First
+
+@mixin size ($size)
+    @if $size == small
+        @media screen and (max-width: 39.99em)
+            @content
+        
+    @else if $size == medium
+        @media screen and (min-width: 40em) and (max-width: 63.99em)
+            @content
+        
+    @else if $size == large
+        @media screen and (min-width: 64em)
+            @content
+        
+
+@for $i from 1 through 12
+    .col-lg-#{$i}
+        float: left
+        width: percentage(($i/12))
+
+    .col-md-#{$i}
+        @include size(medium)
+            float: left
+            width: percentage(($i/12))
+
+    .col-sm-#{$i}
+        @include size(small)
+            float: none
+            width: percentage(($i/12))
