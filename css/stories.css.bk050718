@@ -1,0 +1,29 @@
+.success-stories
+    h2, h5, p
+        color: $blue
+    
+.last-story
+    margin-bottom: 50px
+    
+.quote 
+    padding-top: 30px
+    margin-top: 10px
+    p
+        color: $gray
+    
+p.student
+    color: $blue
+
+.stories-pic-1 img, .stories-pic-2 img, .stories-pic-3 img 
+    width: 100%
+    padding-top: 40px 
+
+.fa-quote-right, .fa-quote-left
+    color: $yellow
+    
+.fa-quote-right
+    margin-left: 10px !important
+
+.fa-quote-left
+    margin-right: 10px !important
+    

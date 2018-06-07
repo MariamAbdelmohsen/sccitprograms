@@ -480,6 +480,10 @@ body .banner img {
   overflow: hidden;
 }
 
+p {
+  line-height: 1.7;
+}
+
 /*-------End section-----*/
 #wrapper {
   margin: 0 auto;
@@ -490,6 +494,8 @@ body .banner img {
 #wrapper h3, #wrapper h4 {
   color: #0E679F;
   font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 5px;
 }
 
 #wrapper h3 b, #wrapper h4 b {
@@ -531,6 +537,10 @@ body .banner img {
 
 #wrapper #box b {
   color: #0E679F;
+}
+
+#wrapper .enroll {
+  line-height: 1.8;
 }
 
 #wrapper .enroll a:hover {
@@ -875,6 +885,10 @@ body .banner img {
     width: 70%;
     margin-top: 5px;
   }
+}
+
+#contactPage .Directory {
+  clear: both;
 }
 
 #contactPage .advisor-yellow {
@@ -1279,7 +1293,6 @@ body .banner img {
 #contactPage .wpcf7-form-control {
   width: 100%;
   margin: 0 auto;
-  border: 1px solid #000 !important;
   margin-top: 5px;
 }
 
@@ -1291,7 +1304,6 @@ body .banner img {
 
 #contactPage textarea.wpcf7-textarea {
   height: 200px;
-  border: 1px solid #000 !important;
   width: 100%;
   margin-bottom: 10px;
 }
@@ -1324,10 +1336,6 @@ body .banner img {
   width: 100%;
 }
 
-.last-story {
-  margin-bottom: 50px;
-}
-
 .quote {
   padding-top: 10px;
   margin-top: 5px;
@@ -1341,26 +1349,24 @@ body .banner img {
   color: #0E679F;
 }
 
-.stories-pic-1,
-.stories-pic-3 {
+#stories-pic-1 {
   float: left;
 }
 
-.stories-pic-1 img,
-.stories-pic-3 img {
-  width: 50%;
+#stories-pic-1 img {
   padding-top: 5px;
 }
 
-.stories-pic-2,
-.stories-pic- {
+#stories-pic-2 {
   float: right;
 }
 
-.stories-pic-2 img,
-.stories-pic- img {
-  width: 50%;
+#stories-pic-2 img {
   padding-top: 5px;
+}
+
+.last-story {
+  margin-bottom: 50px;
 }
 
 .fa-quote-right {
@@ -1918,11 +1924,17 @@ body .banner img {
     margin: 0;
   }
   #wrapper .success-stories-box {
-    margin: 0;
+    margin-top: 40px;
   }
   #wrapper .success-stories-box .quote {
     padding-top: 0px;
     margin-top: 5px;
+  }
+  #wrapper #stories-pic-2 {
+    float: none;
+  }
+  #wrapper .last-story {
+    margin-bottom: 0;
   }
   footer .address {
     text-align: center;
@@ -1994,10 +2006,11 @@ footer .address p, footer .links {
 footer .register-button {
   background-color: #FFC628;
   color: #fff;
-  width: 60%;
+  width: 260px;
   border-radius: 1px;
   height: 35px;
   margin-top: 10px;
+  font-weight: bold;
 }
 
 footer .register-button:hover {
@@ -2007,7 +2020,7 @@ footer .register-button:hover {
 
 @media (max-width: 1024px) {
   footer .register-button {
-    width: 80%;
+    width: 260px;
   }
 }
 
@@ -2015,9 +2028,10 @@ footer .advisor-yellow {
   background-color: #FFC628;
   height: 35px;
   color: #fff;
-  width: 60%;
+  width: 260px;
   border-radius: 1px;
   margin-top: 20px;
+  font-weight: bold;
 }
 
 footer .advisor-yellow:hover {
@@ -2026,7 +2040,7 @@ footer .advisor-yellow:hover {
 
 @media (max-width: 1024px) {
   footer .advisor-yellow {
-    width: 80%;
+    width: 260px;
   }
 }
 
@@ -2055,7 +2069,7 @@ footer .buttons p i {
   cursor: pointer;
 }
 
-/* All your print styles go here */
+/* All your print styles g o here */
 @media print {
   * {
     background: transparent !important;

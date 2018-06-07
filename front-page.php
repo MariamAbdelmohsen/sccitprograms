@@ -3,8 +3,7 @@
     <div class="flex"><!--changed from class="banner" due to conflicts-->
 		
         <!-- Begin Flex Slider -->
-        <?php get_flexslider_gallery(); 		
-		?>
+        <?php get_flexslider_gallery();?>
    		 <!-- End Flex Slider -->
     </div><!--end banner-->
 
@@ -39,11 +38,8 @@ $pages = get_pages($args);
             	<div class="text">
 				<h4><?php $custom_fields = get_post_custom($page->ID); echo $custom_fields['Title Display'][0];
 					?></h4></a>
-                <p><?php echo $page->post_excerpt; 
-					//Post_excerpt is the blurb for page shown
-					//var_dump($page);
-					?></p>
-                
+				<p><?php echo $page->post_excerpt; ?></p>
+				<a class="more" href="<?php echo get_permalink($page->ID);?>">Read More.</a>
             </div><!--end of text-->    
         </div><!--end of box1-->
 		<?php endforeach; ?>

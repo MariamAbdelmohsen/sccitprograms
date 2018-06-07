@@ -102,7 +102,6 @@ function get_flexslider_gallery() {
         echo '<ul class="slides">';
 
         foreach ($attachments as $attachment){
-
             echo '<li>';
             echo wp_get_attachment_image($attachment->ID, 'large') ;
             echo '<p>'.get_post_field('post_excerpt', $attachment->ID).'</p>';

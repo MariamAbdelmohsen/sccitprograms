@@ -34,7 +34,14 @@ endif; ?>
  <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 		
         <div id="box" class="col-md-4 col-sm-12">
-			<a href="<?php echo get_permalink($post);?>" class="more"><?php if (has_post_thumbnail()) : the_post_thumbnail('thumbnail'); endif;?>
+			<a href="<?php echo get_permalink($post);?>" class="more">
+            <?php //if (has_post_thumbnail()) : the_post_thumbnail('thumbnail'); endif;?>
+            <?php
+	   			if (has_post_thumbnail( $page->ID ) ):
+  				echo '<span>' . get_the_post_thumbnail( $page->ID ) . '</span>';
+				//grabs thumbnail if there is one
+	   			endif;
+				?>
             <div class="text">
 				<h4><? the_title();?></h4></a>
                 <? the_excerpt();?>

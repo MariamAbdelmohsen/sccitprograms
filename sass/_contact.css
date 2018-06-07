@@ -1,0 +1,699 @@
+.col-lg-1 {
+  float: left;
+  width: 8.33333%;
+}
+
+@media screen and (min-width: 40em) and (max-width: 63.99em) {
+  .col-md-1 {
+    float: left;
+    width: 8.33333%;
+  }
+}
+
+@media screen and (max-width: 39.99em) {
+  .col-sm-1 {
+    float: none;
+    width: 8.33333%;
+  }
+}
+
+.col-lg-2 {
+  float: left;
+  width: 16.66667%;
+}
+
+@media screen and (min-width: 40em) and (max-width: 63.99em) {
+  .col-md-2 {
+    float: left;
+    width: 16.66667%;
+  }
+}
+
+@media screen and (max-width: 39.99em) {
+  .col-sm-2 {
+    float: none;
+    width: 16.66667%;
+  }
+}
+
+.col-lg-3 {
+  float: left;
+  width: 25%;
+}
+
+@media screen and (min-width: 40em) and (max-width: 63.99em) {
+  .col-md-3 {
+    float: left;
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 39.99em) {
+  .col-sm-3 {
+    float: none;
+    width: 25%;
+  }
+}
+
+.col-lg-4 {
+  float: left;
+  width: 33.33333%;
+}
+
+@media screen and (min-width: 40em) and (max-width: 63.99em) {
+  .col-md-4 {
+    float: left;
+    width: 33.33333%;
+  }
+}
+
+@media screen and (max-width: 39.99em) {
+  .col-sm-4 {
+    float: none;
+    width: 33.33333%;
+  }
+}
+
+.col-lg-5 {
+  float: left;
+  width: 41.66667%;
+}
+
+@media screen and (min-width: 40em) and (max-width: 63.99em) {
+  .col-md-5 {
+    float: left;
+    width: 41.66667%;
+  }
+}
+
+@media screen and (max-width: 39.99em) {
+  .col-sm-5 {
+    float: none;
+    width: 41.66667%;
+  }
+}
+
+.col-lg-6 {
+  float: left;
+  width: 50%;
+}
+
+@media screen and (min-width: 40em) and (max-width: 63.99em) {
+  .col-md-6 {
+    float: left;
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 39.99em) {
+  .col-sm-6 {
+    float: none;
+    width: 50%;
+  }
+}
+
+.col-lg-7 {
+  float: left;
+  width: 58.33333%;
+}
+
+@media screen and (min-width: 40em) and (max-width: 63.99em) {
+  .col-md-7 {
+    float: left;
+    width: 58.33333%;
+  }
+}
+
+@media screen and (max-width: 39.99em) {
+  .col-sm-7 {
+    float: none;
+    width: 58.33333%;
+  }
+}
+
+.col-lg-8 {
+  float: left;
+  width: 66.66667%;
+}
+
+@media screen and (min-width: 40em) and (max-width: 63.99em) {
+  .col-md-8 {
+    float: left;
+    width: 66.66667%;
+  }
+}
+
+@media screen and (max-width: 39.99em) {
+  .col-sm-8 {
+    float: none;
+    width: 66.66667%;
+  }
+}
+
+.col-lg-9 {
+  float: left;
+  width: 75%;
+}
+
+@media screen and (min-width: 40em) and (max-width: 63.99em) {
+  .col-md-9 {
+    float: left;
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 39.99em) {
+  .col-sm-9 {
+    float: none;
+    width: 75%;
+  }
+}
+
+.col-lg-10 {
+  float: left;
+  width: 83.33333%;
+}
+
+@media screen and (min-width: 40em) and (max-width: 63.99em) {
+  .col-md-10 {
+    float: left;
+    width: 83.33333%;
+  }
+}
+
+@media screen and (max-width: 39.99em) {
+  .col-sm-10 {
+    float: none;
+    width: 83.33333%;
+  }
+}
+
+.col-lg-11 {
+  float: left;
+  width: 91.66667%;
+}
+
+@media screen and (min-width: 40em) and (max-width: 63.99em) {
+  .col-md-11 {
+    float: left;
+    width: 91.66667%;
+  }
+}
+
+@media screen and (max-width: 39.99em) {
+  .col-sm-11 {
+    float: none;
+    width: 91.66667%;
+  }
+}
+
+.col-lg-12 {
+  float: left;
+  width: 100%;
+}
+
+@media screen and (min-width: 40em) and (max-width: 63.99em) {
+  .col-md-12 {
+    float: left;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 39.99em) {
+  .col-sm-12 {
+    float: none;
+    width: 100%;
+  }
+}
+
+#contactPage {
+  /**form*/
+  /*connections plug-in*/
+  /*end connections plug-in*/
+  /*contact form 7*/
+}
+
+#contactPage .register-button {
+  background-color: #FFC628;
+  border: 1px solid #FFC628;
+  color: #fff;
+  width: 60%;
+  border-radius: 1px;
+  height: 35px;
+  margin-top: 10px;
+}
+
+#contactPage .register-button:hover {
+  background-color: #022B45;
+  border: 1px solid #022B45;
+}
+
+@media (max-width: 1024px) {
+  #contactPage .register-button {
+    width: 80%;
+  }
+}
+
+@media (max-width: 760px) {
+  #contactPage .register-button {
+    width: 70%;
+    margin-top: 5px;
+  }
+}
+
+#contactPage .Directory {
+  clear: both;
+}
+
+#contactPage .advisor-yellow {
+  background-color: #FFC628;
+  border: 1px solid #FFC628;
+  height: 35px;
+  color: #fff;
+  width: 60%;
+  border-radius: 1px;
+  margin-top: 20px;
+}
+
+#contactPage .advisor-yellow:hover {
+  background-color: #022B45;
+  border: 1px solid #022B45;
+}
+
+@media (max-width: 1024px) {
+  #contactPage .advisor-yellow {
+    width: 80%;
+  }
+}
+
+@media (max-width: 760px) {
+  #contactPage .advisor-yellow {
+    width: 70%;
+  }
+}
+
+#contactPage .schedule {
+  font-weight: bold;
+}
+
+#contactPage .schedule:hover {
+  border-bottom: 2px solid #FFC628;
+  color: #fff;
+}
+
+#contactPage .buttons {
+  text-align: center;
+}
+
+#contactPage .buttons p {
+  padding: 15px 0 0 0;
+  color: #fff;
+  margin: 0;
+}
+
+#contactPage .buttons i {
+  padding-left: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#contactPage .contact {
+  padding-top: 10px;
+  text-align: center;
+  align-content: center;
+}
+
+#contactPage ul.contact-nav {
+  list-style-type: none;
+  color: #0E679F;
+  font-size: 0.9em;
+}
+
+#contactPage li.contact-nav1 {
+  display: inline;
+  float: left;
+  width: 33%;
+  text-align: center;
+  border-right: 2px solid #0E679F;
+}
+
+#contactPage li.contact-nav2 {
+  display: inline;
+  float: left;
+  width: 33%;
+  text-align: center;
+  border-right: 2px solid #0E679F;
+}
+
+#contactPage li.contact-nav3 {
+  display: inline;
+  float: left;
+  width: 33%;
+  text-align: center;
+}
+
+#contactPage a:hover, #contactPage a:active {
+  text-decoration: none !important;
+}
+
+#contactPage a.contact-nav-anchor:hover {
+  border-bottom: 2px solid #FFC628;
+}
+
+#contactPage a li.contact-nav1 a.contact-nav-anchor:visited {
+  border-bottom: 2px solid #FFC628 !important;
+  color: #0E679F;
+}
+
+#contactPage .p-contact {
+  width: 100%;
+  text-align: left;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 760px) {
+  #contactPage .p-contact {
+    width: 100%;
+  }
+}
+
+#contactPage form {
+  text-align: center;
+}
+
+#contactPage .input-name, #contactPage .input-email {
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid #000 !important;
+  border-radius: 0px !important;
+  margin-top: 5px;
+}
+
+#contactPage .input-message {
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid #000 !important;
+  border-radius: 0px !important;
+  margin-top: 5px;
+  height: 200px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 760px) {
+  #contactPage .input-name, #contactPage .input-email, #contactPage .input-message {
+    width: 100%;
+  }
+}
+
+#contactPage .submit {
+  background-color: #FFC628 !important;
+  border-color: #fff !important;
+  color: #fff;
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 0px !important;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 760px) {
+  #contactPage .submit {
+    width: 100%;
+  }
+}
+
+#contactPage .advisor-appt h4 {
+  color: #0E679F;
+  margin-bottom: 20px;
+}
+
+#contactPage .advisor-appt p {
+  color: #000;
+  font-size: 1em;
+}
+
+#contactPage .advisor-button {
+  background-color: #FFC628 !important;
+  border-color: #fff !important;
+  color: #fff;
+  width: 60%;
+  border-radius: 0px !important;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-left: 10%;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 760px) {
+  #contactPage .advisor-button {
+    width: 100%;
+    margin-left: 0%;
+  }
+}
+
+#contactPage .schedule-appt {
+  clear: both;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-top: 2px solid #0E679F;
+  border-bottom: 2px solid #0E679F;
+}
+
+#contactPage .faculty {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#contactPage ul.faculty-nav {
+  list-style-type: none;
+  color: #0E679F;
+  font-size: 0.9em;
+  margin-top: 25px;
+  padding-bottom: 50px !important;
+  text-align: center;
+}
+
+@media (max-width: 760px) {
+  #contactPage ul.faculty-nav {
+    margin-top: 10px;
+    margin-left: 0%;
+    padding-bottom: 0px;
+    padding-top: 10px;
+  }
+}
+
+#contactPage li.faculty-nav2 {
+  display: inline;
+  float: left;
+  margin-left: 3%;
+  width: 29.33%;
+  font-weight: 800;
+  text-align: center;
+  border-right: 2px solid #0E679F;
+  padding-right: 2%;
+}
+
+@media screen and (max-width: 39.99em) {
+  #contactPage li.faculty-nav2 {
+    width: 100%;
+    border-left: none;
+    border-right: none;
+    float: none;
+    display: block;
+  }
+}
+
+#contactPage li.faculty-nav3 {
+  display: inline;
+  float: left;
+  width: 29.33%;
+  font-weight: 800;
+  text-align: center;
+}
+
+@media screen and (max-width: 39.99em) {
+  #contactPage li.faculty-nav3 {
+    width: 100%;
+    border-left: none;
+    border-right: none;
+    float: none;
+    display: block;
+  }
+}
+
+#contactPage li.faculty-nav4 {
+  display: inline;
+  float: left;
+  width: 21%;
+  font-weight: 800;
+  text-align: center;
+  border-left: 2px solid #0E679F;
+  padding-left: 4%;
+}
+
+@media screen and (max-width: 39.99em) {
+  #contactPage li.faculty-nav4 {
+    width: 100%;
+    border-left: none;
+    border-right: none;
+    float: none;
+    display: block;
+  }
+}
+
+#contactPage button.faculty-nav1, #contactPage button.faculty-nav2, #contactPage button.faculty-nav3, #contactPage button.faculty-nav4 {
+  outline: none;
+  border-bottom: 2px solid #FFC628;
+  border: 0px;
+  background-color: #fff;
+}
+
+#contactPage button.faculty-nav1:hover, #contactPage button.faculty-nav2:hover, #contactPage button.faculty-nav3:hover, #contactPage button.faculty-nav4:hover {
+  border-bottom: 2px solid #FFC628;
+}
+
+#contactPage button.faculty-nav1:focus, #contactPage button.faculty-nav2:focus, #contactPage button.faculty-nav3:focus, #contactPage button.faculty-nav4:focus {
+  outline: none;
+  border-bottom: 2px solid #FFC628;
+}
+
+#contactPage .input-search {
+  display: inline;
+  float: right;
+  margin-top: -25px;
+}
+
+@media (max-width: 760px) {
+  #contactPage .input-search {
+    float: none;
+    margin-top: 0px;
+    margin-right: 0%;
+    margin-left: 10%;
+  }
+}
+
+#contactPage .box {
+  width: 90%;
+  height: 130px;
+  background-color: #0E679F;
+}
+
+#contactPage #myBtn {
+  border: 0px;
+  background-color: #0E679F;
+  color: #fff;
+  position: fixed;
+  z-index: 99;
+  right: 30px;
+  cursor: pointer;
+  bottom: 300px;
+  line-height: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#contactPage #menu1, #contactPage #menu2, #contactPage #menu3, #contactPage #menu4 {
+  clear: both;
+}
+
+@media (max-width: 500px) {
+  #contactPage #menu1, #contactPage #menu2, #contactPage #menu3, #contactPage #menu4 {
+    clear: both !important;
+  }
+}
+
+#contactPage #cn-list {
+  align-content: center;
+}
+
+@media screen and (max-width: 39.99em) {
+  #contactPage #cn-list {
+    text-align: center;
+    display: inline-block;
+  }
+}
+
+#contactPage .cn-list-row-alternate .cn-entry {
+  width: 30%;
+  float: left;
+  /*margin-right: 4%;*/
+}
+
+#contactPage .individual .cn-entry {
+  margin-right: 4%;
+}
+
+@media (max-width: 500px) {
+  #contactPage .cn-list-row-alternate .cn-entry {
+    width: 100%;
+  }
+}
+
+#contactPage .cn-entry span {
+  width: 200%;
+}
+
+@media (max-width: 500px) {
+  #contactPage .cn-entry span {
+    width: 100%;
+  }
+}
+
+#contactPage .cn-list-row {
+  width: 30% !important;
+  float: left;
+  margin-right: 4%;
+}
+
+#contactPage .cn-list-row.cn-entry {
+  width: 100%;
+}
+
+@media (max-width: 500px) {
+  #contactPage .cn-list-row {
+    width: 100% !important;
+  }
+}
+
+#contactPage .cn-image {
+  width: 100% !important;
+}
+
+#contactPage .cn-image-style {
+  width: 60% !important;
+}
+
+#contactPage .wpcf7-form-control {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+
+@media (max-width: 760px) {
+  #contactPage .wpcf7-form-control {
+    width: 100%;
+  }
+}
+
+#contactPage textarea.wpcf7-textarea {
+  height: 200px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#contactPage input.wpcf7-submit {
+  background-color: #FFC628 !important;
+  border-color: #fff !important;
+  color: #fff;
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 0px !important;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 760px) {
+  #contactPage .wpcf7-submit {
+    width: 100%;
+  }
+}
