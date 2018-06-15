@@ -10,10 +10,12 @@
    ?>
 <?php get_header(); ?>
 <div class="banner">
-   <img src="<?php bloginfo('template_directory'); ?>/images/seattle.jpg">
+   <!-- <img src="<?php bloginfo('template_directory'); ?>/images/seattle.jpg"> -->
+   <img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="" />
+
 </div>
 <!--end of banner-->			
-<div id="wrapper" class="row">
+<div id="wrapper" class="row programs-details">
    <div class="intro col-md-12">
       <div class="text">
          <small> 
@@ -44,7 +46,7 @@
    <!-- &nbsp; -->
    
    <div class="enroll">
-   <?php echo get_post_field('post_content', 342);?>
+   <?php echo get_post_field('post_content', 280);?>
    </div>
       <!-- <small>detail-post.php</small> -->
 

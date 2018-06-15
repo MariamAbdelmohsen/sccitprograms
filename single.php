@@ -1,27 +1,33 @@
 <?php get_header(); ?>
+<div class="banner">
+   <!-- <img src="<?php bloginfo('template_directory'); ?>/images/seattle.jpg"> -->
+   <img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="" />
 
-<div id="wrapper" class="row"> 
-<img src="<?php header_image(); ?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="" />
-
-
-    <?php if ( function_exists( 'bread_crumb' )) { bread_crumb(); } ?>
-
-    <div class="col-md-12">
-        <div class="text">
-        </div>
-    <!-- Begin Content -->
+</div>
+<!--end of banner-->			
+<div id="wrapper" class="row">
+   <div class="intro col-md-12">
+      <div class="text">
+         <small> 
+         <?php if ( function_exists( 'bread_crumb' )) { bread_crumb(); } ?>
+         </small>
+      </div>
+      <!-- Bread crumbs -->
+          <!-- Begin Content -->
     <div id="content">
         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); // start the loop ?>
+        <div class="col-md-12 col-sm-12">
         <article id="post-<?php the_ID(); ?>" class="post">    
-            <h2>
-            <?php the_title(); // the posting title ?>
-            </h2> 
-            <?php the_post_thumbnail( 'large' ); // the featured image ?>    
-            <?php the_content(''); // posting written content ?>
-        
+            <h3>
+           <b> <?php the_title(); // the posting title ?></b>
+            </h3> 
+            <?php the_post_thumbnail( 'medium' ); // the featured image ?>  
+            <div class="col-md-8 col-sm-12">
+            <p><?php the_content(''); // posting written content ?> </p>
+            </div>  
         </article>
+        </div>
             <?php endwhile; endif; // end the loop ?>
-    <small>single.php</small>
     </div>
     </div>
     </div><!--End Wrapper-->

@@ -5,19 +5,20 @@ $darkBlue: #022B45
 $yellow: #FFC628
 $blue: #0E679F
 @import "_mediaquaries.sass"  
-
+ 
 #contactPage
-    .register-button
+    .register-button , .advisor-yellow , .advisor-button
+        border: 1px solid #ccc
         background-color: #FFC628
-        border: 1px solid #FFC628
         color: #fff
-        width: 60%
+        width: 260px
         border-radius: 1px
         height: 35px
         margin-top: 10px
+        font-weight: bold
         &:hover
             background-color: #022B45
-            border: 1px solid #022B45
+            border: 1px solid #4d4d4d
 
     @media (max-width: 1024px)
         .register-button
@@ -30,21 +31,21 @@ $blue: #0E679F
     .Directory
         clear: both
 
-    .advisor-yellow
-        background-color: #FFC628
-        border: 1px solid #FFC628
-        height: 35px
-        color: #fff
-        width: 60%
-        border-radius: 1px
-        margin-top: 20px
-        &:hover
-            background-color: #022B45
-            border: 1px solid #022B45
-        @media (max-width: 1024px)
-            width: 80%
-        @media (max-width: 760px)
-            width: 70%
+    // .advisor-yellow
+    //     background-color: #FFC628
+    //     border: 1px solid #FFC628
+    //     height: 35px
+    //     color: #fff
+    //     width: 60%
+    //     border-radius: 1px
+    //     margin-top: 20px
+    //     &:hover
+    //         background-color: #022B45
+    //         border: 1px solid #022B45
+    //     @media (max-width: 1024px)
+    //         width: 80%
+    //     @media (max-width: 760px)
+    //         width: 70%
 
     .schedule
         font-weight: bold
@@ -164,33 +165,55 @@ $blue: #0E679F
         p
             color: #000
             font-size: 1em
+        
 
-    .advisor-button
-        background-color: #FFC628 !important
-        border-color: #fff !important
-        color: #fff
-        width: 60%
-        border-radius: 0px !important
-        margin: 0 auto
-        margin-top: 60px
-        margin-left: 10%
-        margin-bottom: 50px
+    // .advisor-button
+    //     background-color: #FFC628 !important
+    //     border-color: #fff !important
+    //     color: #fff
+    //     width: 60%
+    //     border-radius: 0px !important
+    //     margin: 0 auto
+    //     margin-top: 60px
+    //     margin-left: 10%
+    //     margin-bottom: 50px
 
-    @media (max-width: 760px)
-        .advisor-button
-            width: 100%
-            margin-left: 0%
+    // @media (max-width: 760px)
+    //     .advisor-button
+    //         width: 100%
+    //         margin-left: 0%
 
     .schedule-appt
         clear: both
         padding-top: 50px
         padding-bottom: 50px
         border-top: 2px solid #0E679F
-        border-bottom: 2px solid #0E679F
 
-    .faculty
+    .faculty-dirc
+        clear: both
         padding-top: 50px
         padding-bottom: 50px
+        border-top: 2px solid #0E679F
+
+        
+
+    .faculty
+        // padding-top: 50px
+        // padding-bottom: 50px
+        border-bottom: 0
+        h4
+            color: #0E679F
+            margin-bottom: 20px
+        h5
+            color: #000
+            font-weight: 1.2em
+
+        p
+            color: #000
+            font-size: 1em
+            span
+                color: #000
+
 
     ul.faculty-nav
         list-style-type: none
@@ -392,14 +415,32 @@ $blue: #0E679F
         margin-bottom: 10px
 
     input.wpcf7-submit
+        // background-color: #FFC628 
+        // border-color: #fff 
+        // color: #fff
+        // width: 60%
+        // margin: 0 auto
+        // border-radius: 0px !important
+        // margin-bottom: 50px
         background-color: #FFC628 !important
-        border-color: #fff !important
+        border: 1px solid #ccc!important
         color: #fff
-        width: 60%
-        margin: 0 auto
-        border-radius: 0px !important
-        margin-bottom: 50px
+        width: 260px
+        border-radius: 1px
+        height: 35px
+        margin-top: 10px
+        font-weight: bold
+        float: right
+        margin-bottom: 15px
+        &:hover
+            background-color: #022B45
+            border: 1px solid #4d4d4d
 
     @media (max-width: 760px)
         .wpcf7-submit
             width: 100%
+    #recaptcha
+        div
+            margin: 0 auto
+            .rc-anchor-content , .rc-anchor .rc-anchor-normal .rc-anchor-light
+                margin: 0 auto

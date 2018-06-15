@@ -14,7 +14,7 @@
     
 <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/images/logo.png"/>
 <!-- <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" /> -->
-<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/style.css" type="text/css"/>
+<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>style.css" type="text/css"/>
 
 <!--flexslider css-->
 <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/flexslider.css" type="text/css" media="screen"/>
@@ -60,6 +60,5 @@
         <script src="<?php bloginfo('template_directory'); ?>/js/drop-down.js" type="text/javascript"></script>
         <!--Flexslider-->
         <script src="<?php bloginfo('template_directory'); ?>/js/jquery.flexslider.js"></script>
-		
 		
     </header>
